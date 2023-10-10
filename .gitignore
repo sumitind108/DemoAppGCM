@@ -1,0 +1,28 @@
+# Ignore Python virtual environment
+myenv/
+
+# Ignore database file
+db.sqlite3
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore local settings file (if any)
+local_settings.py
+
+# Ignore IDE and editor specific files
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore staticfiles directory (for collectstatic)
+staticfiles/
+
+# Ignore secret files (e.g., secret keys)
+secret.json
